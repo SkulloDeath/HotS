@@ -1,0 +1,36 @@
+body {
+  background-image: url('Images/HotS.jpg');
+  background-size: cover;
+}
+
+header {
+  width: 100%;
+  height: 200px;
+  background-size: contain;
+  background-image: url('Images/abathur.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  color: #7685B5;
+}
+
+h4 {
+  color: #7685B5;
+}
+
+button {
+    height: 100px;
+    width: 100%;
+    padding: 0;
+    background-color: #3D1947;
+}
+
+p1 {
+  color: #7685B5;
+}
+
+p2 {
+  color: #7685B5;
+}
