@@ -6,32 +6,62 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" type="text/css" href="styles.css">
-	<link rel="stylesheet" href="http://code.jquery.com/mobile/[version]/jquery.mobile-[version].min.css" />
-	<script src="http://code.jquery.com/jquery-[version].min.js"></script>
-	<script src="http://code.jquery.com/mobile/[version]/jquery.mobile-[version].min.js"></script>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 </head>
 <body>
+	<!-- Start of first page -->
+	<div data-role="page" id="index">
 
-  <div data-role="page">
+		<div data-role="header">
+			<h1>Heroes</h1>
+		</div><!-- /header -->
 
-	 <div data-role="header">
-		<center><h1>Heroes</h1></center>
-	 </div><!-- /header -->
+		<div role="main" class="ui-content">
+			<p>I'm first in the source order so I'm shown as the page.</p>
+			<p>View internal page called <a href="#Abathur">Abathur</a></p>
+		</div><!-- /content -->
 
-<!-- /knapper for heroes -->
-  <form method="get" action="C:\Users\Trond\Documents\GitHub\HotS\Heroes of the Storm\Abathur.html">
-      <button type="submit"><img src="Images/abathur.png"><p1>Abathur</p1></button>
-  </form>
+		<div data-role="footer">
+			<h4></h4>
+		</div><!-- /footer -->
+	</div><!-- /page -->
 
-  <form method="get" action="C:\Users\Trond\Documents\GitHub\HotS\Heroes of the Storm\Alarak.html">
-      <button type="submit"><img src="Images/alarak.png"><p2>Alarak</p2></button>
-  </form>
+	<!-- Start of second page -->
+	<div data-role="page" id="Abathur">
 
-  <div data-role="footer">
-   <center><h4>Heroes of the Storm builds</h4></center>
-  </div><!-- /footer -->
- </div><!-- /page -->
+		<div data-role="header">
+			<h1>Abathur</h1>
+		</div><!-- /header -->
 
+		<div role="main" class="ui-content">
+			<p>I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.</p>
+			<center><img src="Images\Abathur1.jpg" alt="Abathur"></center>
+			<p><a href="#index">Back to foo</a></p>
+		</div><!-- /content -->
+
+		<div data-role="footer">
+			<h4>Page Footer</h4>
+		</div><!-- /footer -->
+	</div><!-- /page -->
+
+	<!-- Start of third page -->
+	<div data-role="page" id="Alarak">
+
+		<div data-role="header">
+			<h1>Alarak</h1>
+		</div><!-- /header -->
+
+		<div role="main" class="ui-content">
+			<p>I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.</p>
+			<p><a href="#index">Back to foo</a></p>
+		</div><!-- /content -->
+
+		<div data-role="footer">
+			<h4>Page Footer</h4>
+		</div><!-- /footer -->
+	</div><!-- /page -->
 
 </body>
 </html>
