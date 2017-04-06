@@ -20,8 +20,12 @@
 
 		<div role="main" class="ui-content">
 			<p>I'm first in the source order so I'm shown as the page.</p>
-			<p>View internal page called <a href="#Abathur">Abathur</a></p>
-			<p>View internal page called <a href="#Alarak">Alarak</a></p>
+			<a href="#Abathur">
+  			<img src="Images/Heroes,champs/abathur.png" alt="HTML tutorial" style="width:42px;height:42px;border:0;">
+			</a>
+			<a href="#Alarak">
+				<img src="Images/Heroes,champs/alarak.png" alt="HTML tutorial" style="width:42px;height:42px;border:0;">
+			</a>
 		</div><!-- /content -->
 
 		<div data-role="footer">
@@ -50,13 +54,12 @@
 	<!-- Start of third page -->
 	<div data-role="page" id="Alarak">
 
-		<div data-role="header">
+		<div data-role="header" data-add-back-btn="true">
 			<h1>Alarak</h1>
 		</div><!-- /header -->
 
 		<div role="main" class="ui-content">
 			<p>I'm the second in the source order so I'm hidden when the page loads. I'm just shown if a link that references my id is beeing clicked.</p>
-			<p><a href="#index">Back to foo</a></p>
 		</div><!-- /content -->
 
 		<div data-role="footer">
