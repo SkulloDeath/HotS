@@ -1,11 +1,23 @@
-.ui-page.ui-body-c {
-    background: url(Images/Heroes,champs/HotS.jpg);
-    background-repeat:no-repeat;
-    background-position:center center;
-    background-size:cover;
-}
 body {
+    background:url(Images/Background/HotS.jpg);
+    background-repeat:repeat-y;
+    background-position:center center;
+    background-attachment:scroll;
+    background-size:100% 100%;
+}
+.ui-page {
+    background: transparent !important;
+}
+.ui-content{
+    background: transparent !important;
+}
 
+.ui-header {
+  background-color: rgb(29, 9, 35) !important;
+}
+
+#footer {
+  background-color: rgb(50, 22, 61) !important;
 }
 
 h1 {
@@ -14,13 +26,4 @@ h1 {
 
 h4 {
   color: #7685B5;
-}
-
-#page1.ui-page{
-   background: url(Images/Heroes,champs/HotS.jpg) no-repeat center center fixed;
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;
-   background-size:100% 100%;
 }
